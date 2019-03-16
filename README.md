@@ -8,7 +8,7 @@
 <audio src="https://www.youtube.com/watch?v=g5Dzd_64fII" controls="controls">
 Your browser does not support the audio element.
 </audio>
-<video src="https://www.youtube.com/watch?v=g5Dzd_64fII" controls>
+<video src="<iframe width="560" height="315" src="https://www.youtube.com/embed/g5Dzd_64fII" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>" controls>
 
 </video>
 <h3>我是統計資訊的學生，我的人生除了統計以外沒樂趣了，有甚麼統計問題可以問我喔喔喔。</h1>
