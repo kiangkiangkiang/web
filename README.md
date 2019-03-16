@@ -5,7 +5,7 @@
   
 <h1 style="text-align: center;"><strong><span style="color: #ff0000;">我是柏學喔&lt;3</span></strong></h1>
 <p style="text-align: left;"><embed src="https://www.youtube.com/embed/g5Dzd_64fII" width="165" height="27"></embed> 柔軟 <span style="text-decoration: underline;">房東的貓</span></p>
-<audio src="https://www.youtube.com/watch?v=g5Dzd_64fII" controls="controls">
+<audio src="https://www.youtube.com/embed/g5Dzd_64fII" controls="controls">
 Your browser does not support the audio element.
 </audio>
 <video src="<iframe width="560" height="315" src="https://www.youtube.com/embed/g5Dzd_64fII" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>" controls>
