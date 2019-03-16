@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 <html>
- <h1 style="text-align: center;"><strong><span style="color: #ff0000;">我是柏學喔&lt;3</span></strong></h1>
+<h1 style="text-align: center;"><strong><span style="color: #ff0000;">我是柏學喔&lt;3</span></strong></h1>
 <h3>我是統計資訊的學生，我的人生除了統計以外沒樂趣了，有甚麼統計問題可以問我喔喔喔。</h3>
 <p>&nbsp;</p>
 <h3>這是我人生第一次寫的頁面，我以前連無名部落格都沒有，也不知道要分享甚麼，因此介紹一點歌給大家認識，這些都是冷門的，因為我討厭跟大家一樣ㄏㄏ。</h3>
@@ -25,7 +25,7 @@
 <h3><video src="&lt;iframe width=" width="300" height="315">" width="300" height="315"&gt;" width="300" height="315"&gt;" width="300" height="315"&gt;" controls&gt;</video></h3>
 如果大家對人生找不太到方向，或是迷惘了，這首歌的歌詞蠻到位的，最近我剛好有點失去人生方向，加上壓力山大，不小聽到這首才覺得有歌懂我，差點聽到快哭了呢QQ</li>
 <li>The Chainsmokers , Coldplay - Something Just Like This
-<h3><video src="&lt;iframe width=" width="300" height="315">" width="300" height="315"&gt;" width="300" height="315"&gt;" controls&gt;</video></h3>
+<h3><video src="<iframe width="560" height="315" src="https://www.youtube.com/embed/FM7MFYoylVs?start=4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>" width="300" height="315">" width="300" height="315"&gt;" width="300" height="315"&gt;" controls&gt;</video></h3>
 剛剛說要介紹冷門，結果這首超紅哈哈，介紹這首歌的原因是因為歌詞吧，可能他原本是尋找某位生命中的知心者，但我聽到時的感覺是我的人生追求的並不是天生完美，我對自己追求的是簡單，是努力，並不需要天賦異稟，我相信自己努力改變天生的不足，其中有一段歌詞是"But she said, where d'you wanna go? How much you wanna risk?"&nbsp;我常反問自己面對目標時我願意付出多少代價，而這句歌詞有點貼近自己，所以這首歌不小心變成我的熱門歌單了。</li>
 </ol>
 </ol>
