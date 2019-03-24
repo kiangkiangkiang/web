@@ -4,8 +4,8 @@
 <html>
   <script>
       $(document).ready(function() {
-      $(".intro").addClass("animated bounce");
-      $(".intro").addClass("animated shake");
+      $(".well").addClass("animated bounce");
+      $(".well").addClass("animated shake");
   });
    </script>
 <h1 class="intro" style="text-align: center;"><strong><span style="color: #ff0000;">我是柏學喔&lt;3</span></strong></h1>
@@ -36,15 +36,7 @@
 剛剛說要介紹冷門，結果這首超紅哈哈，介紹這首歌的原因是因為歌詞吧，可能他原本是尋找某位生命中的知心者，但我聽到時的感覺是我的人生追求的並不是天生完美，我對自己追求的是簡單，是努力，並不需要天賦異稟，我相信自己努力改變天生的不足，其中有一段歌詞是"But she said, where d'you wanna go? How much you wanna risk?"&nbsp;我常反問自己面對目標時我願意付出多少代價，而這句歌詞有點貼近自己，所以這首歌不小心變成我的熱門歌單了。</li>
 </ol>
 </ol>
-</ol>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>  
+</ol> 
   
 <div class="container-fluid">
   <h3 class="text-primary text-center">jQuery 作業</h3>
