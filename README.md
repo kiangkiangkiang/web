@@ -1,4 +1,7 @@
+<!DOCTYPE html>
 <html>
+
+
 <h1 class="intro" style="text-align: center;"><strong><span style="color: #ff0000;">我是柏學喔&lt;3</span></strong></h1>
 <h3>我是統計資訊的學生，我的人生除了統計以外沒樂趣了，有甚麼統計問題可以問我喔喔喔。</h3>
 <p>&nbsp;</p>
@@ -33,37 +36,69 @@
 </script>
 <script> 
      $(document).ready(function() {
-     $("button").addClass("animated bounce");
-     $(".well").addClass("animated shake");
-     $("#target3").addClass("animated fadeOut");
-     $("button").removeClass("btn-default");     
-     $("h1").addClass("animated hinge");
-  });   
+       $("button").addClass("animated bounce");
+       $(".well").addClass("animated shake");
+       $("#target3").addClass("animated fadeOut");
+       $("button").removeClass("btn-default");     
+       $("h3").addClass("animated hinge");
+       $(".test1").click(function(){
+       	$("h3").hide();
+       });
+       $(".test2").click(function(){
+      	 $("h3").show();
+       });
+       $(".test3").click(function(){
+    $(".panel").slideDown("slow");
+  });
+  $(".test4").click(function(){
+    $(".panel").slideUp("slow");
+  });
+  $("#send").click(function(){
+  	if($("#music").text() == "")
+    	alert("Thanks for your feedback <3");    
+  });
+  
+  
+});   
 </script>
 </head>
 <!-- Only change code above this line. -->
 
 <div class="container-fluid">
-  <h3 class="text-primary text-center">jQuery Playground</h3>
+  <h3 class="text-primary text-center">jQuery HomeWork</h3>
   <div class="row">
     <div class="col-xs-6">
-      <h4>#left-well</h4>
+      <h4>#hide movie and slide down </h4>
       <div class="well" id="left-well">
-        <button class="btn btn-default target" id="target1">#target1</button>
-        <button class="btn btn-default target" id="target2">#target2</button>
-        <button class="btn btn-default target" id="target3">#target3</button>
+        <button class="test1" id="target1">hide-movie~~</button>        
+        <button class="test3" id="target3">Feedback</button>
       </div>
     </div>
     <div class="col-xs-6">
-      <h4>#right-well</h4>
+      <h4>#show movie and slide up </h4>
       <div class="well" id="right-well">
-        <button class="btn btn-default target" id="target4">#target4</button>
-        <button class="btn btn-default target" id="target5">#target5</button>
-        <button class="btn btn-default target" id="target6">#target6</button>
+        <button class="test2" id="target4">show-movie~~</button>        
+        <button class="test4" id="target6">NO Feedback</button>
       </div>
     </div>
   </div>
 </div>
+
+<div class="panel">
+  <h1>Choose your favorite music !</h1> 
+  <p class="message box">
+    choose your favorite music on above ty~~
+  </p>
+  <p>
+    <label for="name">Favorite music:
+      <input type="text" id="music"/>
+    </label>
+    <button id="send">
+      Send 
+    </button>
+  </p>
+</div> 
+
 </html>
 
 
