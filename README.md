@@ -1,4 +1,12 @@
 <html>
+  <script type=”text/javascript”>
+      $(document).ready(function() {
+     $("button").addClass("animated bounce");
+     $(".well").addClass("animated shake");
+     $("#target3").addClass("animated fadeOut");
+     $("button").removeClass("btn-default");
+  });
+</script>
 <h1 class="intro" style="text-align: center;"><strong><span style="color: #ff0000;">我是柏學喔&lt;3</span></strong></h1>
 <h3>我是統計資訊的學生，我的人生除了統計以外沒樂趣了，有甚麼統計問題可以問我喔喔喔。</h3>
 <p>&nbsp;</p>
@@ -28,15 +36,6 @@
 </ol>
 </ol>
 </ol>   
-<script>
-  $(document).ready(function() {
-    $("button").addClass("animated bounce");
-    $(".well").addClass("animated shake");
-    $("#target3").addClass("animated fadeOut");
-    $("button").removeClass("btn-default");
-
-  });
-</script>
 
 <!-- Only change code above this line. -->
 
