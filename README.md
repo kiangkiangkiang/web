@@ -1,15 +1,4 @@
-<html>
-  <head>
-  <script type=”text/javascript”>
-  <script>
-      $(document).ready(function() {
-     $("button").addClass("animated bounce");
-     $(".well").addClass("animated shake");
-     $("#target3").addClass("animated fadeOut");
-     $("button").removeClass("btn-default");
-  });   
-</script>
- </head>
+<<html>
 <h1 class="intro" style="text-align: center;"><strong><span style="color: #ff0000;">我是柏學喔&lt;3</span></strong></h1>
 <h3>我是統計資訊的學生，我的人生除了統計以外沒樂趣了，有甚麼統計問題可以問我喔喔喔。</h3>
 <p>&nbsp;</p>
@@ -38,8 +27,20 @@
 剛剛說要介紹冷門，結果這首超紅哈哈，介紹這首歌的原因是因為歌詞吧，可能他原本是尋找某位生命中的知心者，但我聽到時的感覺是我的人生追求的並不是天生完美，我對自己追求的是簡單，是努力，並不需要天賦異稟，我相信自己努力改變天生的不足，其中有一段歌詞是"But she said, where d'you wanna go? How much you wanna risk?"&nbsp;我常反問自己面對目標時我願意付出多少代價，而這句歌詞有點貼近自己，所以這首歌不小心變成我的熱門歌單了。</li>
 </ol>
 </ol>
-</ol>   
-
+</ol> 
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+</script>
+<script> 
+     $(document).ready(function() {
+     $("button").addClass("animated bounce");
+     $(".well").addClass("animated shake");
+     $("#target3").addClass("animated fadeOut");
+     $("button").removeClass("btn-default");     
+     $("h1").addClass("animated hinge");
+  });   
+</script>
+</head>
 <!-- Only change code above this line. -->
 
 <div class="container-fluid">
