@@ -1,0 +1,149 @@
+body {
+    /*background-image: url("./back.jpg");*/
+    /*background-repeat: repeat-x;*/
+    font-family: Microsoft JhengHei;
+    height: 100%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThsUz9PAjd17A8KU1TqeMHbJ9pEZuW3vXMWMF3uHP0fxnsRyzNEA");
+}
+
+.row {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #D3D3D3;
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    font-size: 28px;
+    top: 0;
+    border-radius: 25px;
+}
+
+.col li {
+    float: left;
+}
+
+.col li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: DFKai-sb;
+    text-align: center;
+    font-size: 75%
+}
+
+#DTree,
+#KNN,
+#Kmeans,
+#Conclusion {
+    display: none;
+    background: white;
+    box-shadow: 1px 1px 11px -1px #050505;
+    -webkit-box-shadow: 1px 1px 11px -1px #050505;
+    -moz-box-shadow: 1px 1px 11px -1px #050505;
+    -o-box-shadow: 1px 1px 11px -1px #050505;
+}
+
+#ifr {
+    box-shadow: 1px 1px 11px -1px #050505;
+    -webkit-box-shadow: 1px 1px 11px -1px #050505;
+    -moz-box-shadow: 1px 1px 11px -1px #050505;
+    -o-box-shadow: 1px 1px 11px -1px #050505;
+    background: rgb(226, 226, 226);
+}
+
+.col li a:hover {
+    background-color: #F0FFF0;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+img {
+    max-width: 50%;
+    /* 不會縮放到 "大於"其原始大小 */
+    height: auto;
+    /* 隨著寬度等比例縮放 */
+    border-radius: 25px;
+    /*圓角*/
+    margin: 15px 15px 40px 0;
+    /* 如果設定廣告放在左邊，修改為 margin: 0 15px 15px 0;上右下左 */
+    /*float: right; 如果設定廣告放在左邊，請修改為 float: left; */
+}
+
+#title {
+    height: 1px;
+    border-top: 1px #ccc dashed;
+    margin: 10px 0px;
+}
+
+#icon {
+    vertical-align: middle;
+}
+
+#font {
+    font-size: 80px;
+    font-weight: bold;
+    margin: 25px 15px 0px 0;
+}
+
+.list table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-family: DFKai-sb;
+}
+
+.list td,
+th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    font-family: DFKai-sb;
+}
+
+.list tr:nth-child(even) {
+    background-color: rgb(255, 255, 255);
+    font-family: DFKai-sb;
+}
+
+.list tr:nth-child(odd) {
+    background-color: rgb(243, 243, 243);
+    font-family: DFKai-sb;
+}
+
+#thumbnailway {
+    height: 8%;
+    text-align: center;
+    padding: 0.3% 3% 0% 13%
+}
+
+#thumbnailway table {
+    width: 90%;
+    font-size: 30px;
+    border: 1px;
+}
+
+.nextback {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 24px
+}
+#citytable{
+    text-align: "center";
+    width:80%;
+    border: none;
+}
+
+#citytable  tr{ 
+    cursor: pointer;
+    background: white;
+    color:blue;
+}
+#citytable th{
+    font-size: 20px;
+    font-family: Microsoft JhengHei;
+}
