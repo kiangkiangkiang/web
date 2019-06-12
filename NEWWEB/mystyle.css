@@ -1,3 +1,6 @@
+html{
+    height: 100%;
+}
 body {
     /*background-image: url("./back.jpg");*/
     /*background-repeat: repeat-x;*/
@@ -5,6 +8,11 @@ body {
     height: 100%;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThsUz9PAjd17A8KU1TqeMHbJ9pEZuW3vXMWMF3uHP0fxnsRyzNEA");
 }
+#map {
+            
+            height:500px;
+            width: 900px;
+        }
 
 .row {
     list-style-type: none;
@@ -38,7 +46,8 @@ body {
 #DTree,
 #KNN,
 #Kmeans,
-#Conclusion {
+#Conclusion,
+#analysisSection{
     display: none;
     background: white;
     box-shadow: 1px 1px 11px -1px #050505;
@@ -146,4 +155,21 @@ th {
 #citytable th{
     font-size: 20px;
     font-family: Microsoft JhengHei;
+}
+
+#myTable{
+    text-align: "center";
+    width:80%;
+    border: none;
+}
+
+#myTable  tr{ 
+    cursor: pointer;
+    color:blue;
+}
+#myTable th{
+    font-size: 20px;
+    font-family: Microsoft JhengHei;
+    background: white;
+    width: 80s%;
 }

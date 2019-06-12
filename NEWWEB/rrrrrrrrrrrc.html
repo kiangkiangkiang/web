@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script type='text/javascript' src='http://code.jquery.com/jquery-1.9.1.min.js' crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="rr.js"></script>
+<style>
+
+    body{
+      position: relative;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
+      font-family: "微軟正黑體";
+    }
+    
+    div.fixed-center{
+	position:relative; 
+	top:20px; 
+	left:15px; 
+	
+    }
+    table{
+  margin-left:auto; 
+  margin-right:auto;
+}
+
+</style>
+
+
+</head>
+
+<body style="text-align:center" background="bg2.jpg" >
+
+<div style="font-family:微軟正黑體" font-size="4.5">
+<h2>歡迎登入</h2>
+
+
+<p></p>
+<form name="myForm" method="post">
+  	帳號: <input type="text" style="font-family:微軟正黑體" name="account" placeholder="請輸入帳號"> <br>
+    密碼: <input type="password" style="font-family:微軟正黑體" name="password" placeholder="請輸入密碼"> <br>
+</div>
+
+<div class="fixed-center";>
+  	<input type="submit" style="font-family:微軟正黑體;" onclick ="myFunction()" value="登入">
+	  <!--<input type="button" style="font-family:微軟正黑體;" value="忘記密碼" >-->
+</div>
+
+</form>
+
+
+<table  style="font-family:微軟正黑體 ;border-top-style: dotted;border-left-style: none;border-right-style: none;border-bottom-style: none">
+<div>
+　<tr>
+　<td colspan="2"><font size="4.5">註冊帳號</font></td>
+  </tr>
+  <tr>
+  <td>暱稱: </td>
+  <td> <input type="text" id="cname"></td>
+  </tr>
+  <tr>
+  <td>信箱: </td>
+  <td> <input type="text" id="cmail"></td>
+  </tr>
+  <tr>
+　<td>帳號: </td>
+  <td> <input type="text" id="caccount"></td>
+  </tr>
+  <tr>
+　<td>密碼:</td>
+　<td> <input type="text" id="cpassword"></td>
+　</tr>
+  <tr>
+  <td>密碼確認:</td>
+  <td> <input type="text" id="dccpassword"></td>
+  </tr>
+</div>
+</table>
+
+<br>
+<input type="button" style="font-family:微軟正黑體;" value="註冊" onclick="confirmation()">	
+
+
+</body>
+</html>
