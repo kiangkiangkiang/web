@@ -2,7 +2,7 @@
 <html>
 
 
-<h1 class="intro" style="text-align: center;"><strong><span style="color: #ff0000;">我是柏學喔&lt;3</span></strong></h1>
+<h1 class="intro" style="text-align: center;"><strong><span style="color: #ff0000;">WEB作業~~~&lt;3</span></strong></h1>
 <h3>我是統計資訊的學生，我的人生除了統計以外沒樂趣了，有甚麼統計問題可以問我喔喔喔。</h3>
 <p>&nbsp;</p>
 <h3>這是我人生第一次寫的頁面，我以前連無名部落格都沒有，也不知道要分享甚麼，因此介紹一點歌給大家認識，這些都是冷門的，因為我討厭跟大家一樣ㄏㄏ。</h3>
